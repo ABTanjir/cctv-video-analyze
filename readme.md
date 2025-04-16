@@ -115,5 +115,5 @@ Feel free to contribute improvements or report issues!
 
 ---
 
-**Author:** _[Your Name]_  
+**Author:** _[AB Tanjir]_  
 **License:** MIT
