@@ -1,3 +1,4 @@
+
 # Motion Frame Extractor
 
 This Python script processes video files in a specified folder and extracts frames where motion is detected, saving them as image files. It uses OpenCV for motion detection and basic image processing techniques to filter noise.
@@ -45,10 +46,35 @@ RESIZE_WIDTH = 640              # Resize frame width (helps reduce noise)
 - Python 3.x
 - OpenCV (`cv2`)
 
-Install dependencies:
+### 💡 Recommended Setup (Virtual Environment)
 
+#### 1. Create and activate a virtual environment
+
+On macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+On Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### 2. Install dependencies inside the venv
 ```bash
 pip install opencv-python
+```
+
+Or for headless environments:
+```bash
+pip install opencv-python-headless
+```
+
+#### 3. Deactivate when done
+```bash
+deactivate
 ```
 
 ## 🧪 Usage
